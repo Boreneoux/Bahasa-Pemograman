@@ -1,4 +1,5 @@
 #include <iostream>
+#include <conio.h>
 
 using namespace std;
 
@@ -50,7 +51,7 @@ cout << "Ingin kembali ke menu? (Y/N) : "; cin >> pil;
 keluar:
     system("cls");
     cout<<"\n TERIMA KASIH \n";
-    system("PAUSE");
+    getch();
     
     
 
